@@ -1,5 +1,10 @@
 hungary = input("are you hungary?")
 if(hungary=="yes"):
     print("eat samosa")
+    print("eat pizza")
+    print("eat burger")
 else:
-    print("do not eat")
+    thirsty = input("are you thirsty?")
+    if thirsty=="yes":
+        print("drink water.")
+    
